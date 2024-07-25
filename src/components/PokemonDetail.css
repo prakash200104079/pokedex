@@ -1,0 +1,50 @@
+.pokemon-detail {
+  text-align: center;
+  padding: 20px;
+  background: #f9f9f9; /* Light background color */
+}
+
+.back-button {
+  display: block; /* Ensure it's a block element */
+  margin: 0 auto 20px; /* Center horizontally and add space below */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.detail-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block; /* Keep it centered */
+  text-align: left; /* Align text to the left inside the card */
+  width: 100%; /* Ensure it doesn't overflow on small screens */
+  max-width: 300px; /* Limit maximum width */
+}
+
+.detail-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 15px; /* Center image horizontally and add space below */
+}
+
+.pokemon-info {
+  margin-top: 15px;
+}
+
+.pokemon-info p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
