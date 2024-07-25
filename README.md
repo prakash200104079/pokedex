@@ -5,7 +5,7 @@ This is a pokedex project.
 
 create an env file.
 Provide the follwing:
-REACT_APP_API_BASE_URL
+REACT_APP_API_BASE_URL, 
 REACT_APP_POKEMON_LIMIT
 
 
