@@ -1,3 +1,14 @@
+# About the project:
+This is a pokedex project.
+
+# How to start
+
+create an env file.
+Provide the follwing:
+REACT_APP_API_BASE_URL
+REACT_APP_POKEMON_LIMIT
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
